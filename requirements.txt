@@ -3,8 +3,11 @@ pydantic
 openai
 langchain
 langchain_openai
+chromadb
 bs4
 tiktoken
 requests
-fastapi[all]
+apify-client
 streamlit
+fastapi[all]
+uvicorn[standard]
