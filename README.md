@@ -1,4 +1,4 @@
-# fork from JayZhou repository
+# The work is inspired by [JayZeeDesign researcher-gpt](https://github.com/JayZeeDesign/researcher-gpt)
 
 ## app.py is the original file
 
