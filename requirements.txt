@@ -1,7 +1,10 @@
-fastapi[all]
-openai
 python-dotenv
 pydantic
+openai
 langchain
+langchain_openai
 bs4
 tiktoken
+requests
+fastapi[all]
+streamlit
