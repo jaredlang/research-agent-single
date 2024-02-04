@@ -236,19 +236,19 @@ def app():
 
         st.info(result["output"])
 
-# if __name__ == "__main__": 
-#     # test()  # Local Testing 
-#     app()   # Streamlit webapp 
+if __name__ == "__main__": 
+    # test()  # Local Testing 
+    app()   # Streamlit webapp 
 
-# FastAPI service 
-api = FastAPI()
+# # FastAPI service 
+# api = FastAPI()
 
-class Query(BaseModelv2): 
-    topic: str 
+# class Query(BaseModelv2): 
+#     topic: str 
 
-@api.post("/")
-def service(query: Query): 
-    topic = query.topic
-    result = do_research(topic)
-    return result
+# @api.post("/")
+# def service(query: Query): 
+#     topic = query.topic
+#     result = do_research(topic)
+#     return result
 
