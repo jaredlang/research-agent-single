@@ -18,3 +18,9 @@
     * browserless costs too much
     * Apify actors are easier to integrate
     * But Apify webcrawler actor already summarizes the web content to some extent
+7. To make it work on Windows 11, 
+    * Set langsmith version to be 0.0.87 required by langchiain-core. 
+    * Modify .venv\lib\site-packages\langchain_community\document_loaders\pebblo.py
+    * Windows has no 'pwd' module. (Enjoy the open source)
+    * Comment out 'import pwd' at line 5
+    * Assign "unknown" to the document owner at line 264 

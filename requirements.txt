@@ -1,8 +1,10 @@
 python-dotenv
 pydantic
 openai
+langsmith==0.0.87
 langchain
 langchain_openai
+langchain_community
 chromadb
 bs4
 tiktoken
